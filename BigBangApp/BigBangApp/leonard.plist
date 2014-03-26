@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>id</key>
+	<string>KLJSMLND</string>
+	<key>name</key>
+	<string>Leonard</string>
+	<key>lastName</key>
+	<string>Hofstadter</string>
+	<key>profession</key>
+	<string>Experimental physicist</string>
+	<key>realName</key>
+	<string>Johnny Galecki</string>
+	<key>bio</key>
+	<string>Leonard Leakey Hofstadter, Ph.D., is a fictional character on the CBS television series The Big Bang Theory, portrayed by actor Johnny Galecki. Leonard is an experimental physicist originally from New Jersey who shares an apartment with colleague and friend Dr. Sheldon Cooper (Jim Parsons). Leonard and Sheldon are named after actor/producer Sheldon Leonard, and Nobel Prize Laureates Robert Hofstadter and Leon Cooper.
+Leonard has been described as the straight man of the series. Penny (Kaley Cuoco) is Leonard&apos;s next-door neighbor and main love interest, and the teasing of romance between the two of them is a major force driving the series. For his portrayal, Galecki was nominated for a Primetime Emmy Award and a Golden Globe Award.</string>
+	<key>imageName</key>
+	<string>Leonard_Hofstadter.jpg</string>
+	<key>website</key>
+	<string>http://en.wikipedia.org/wiki/Johnny_Galecki</string>
+</dict>
+</plist>

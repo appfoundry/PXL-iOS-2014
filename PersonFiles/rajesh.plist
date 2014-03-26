@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>id</key>
+	<string>raj</string>
+	<key>name</key>
+	<string>Rajesh</string>
+	<key>lastName</key>
+	<string>Koothrappali</string>
+	<key>profession</key>
+	<string>Astrophysicist</string>
+	<key>realName</key>
+	<string>Kunal Nayyar</string>
+	<key>bio</key>
+	<string>Rajesh Ramayan &quot;Raj&quot; Koothrappali, Ph.D. (born October 6[2]) is a fictional character on the CBS television series The Big Bang Theory, portrayed by actor Kunal Nayyar.
+Rajesh is Howard Wolowitz&apos;s (Simon Helberg) best friend, which Kunal Nayyar calls a bromance. The relationship has also been described by Leonard&apos;s mother, Dr. Beverly Hofstadter, (Christine Baranski) as an &quot;ersatz homosexual marriage.&quot; Raj works as an astrophysicist in the Physics Department at Caltech. His principal characteristic is selective mutism which does not allow him to talk to women (outside of his family) unless under the influence of alcohol or believing that he consumed alcohol.</string>
+	<key>imageName</key>
+	<string>Rajesh_Koothrappali.jpg</string>
+</dict>
+</plist>

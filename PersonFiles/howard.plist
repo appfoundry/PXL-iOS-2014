@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>id</key>
+	<string>howard</string>
+	<key>name</key>
+	<string>Howard</string>
+	<key>lastName</key>
+	<string>Wolowitz</string>
+	<key>profession</key>
+	<string>Aerospace Engineer</string>
+	<key>realName</key>
+	<string>Simon Helberg</string>
+	<key>bio</key>
+	<string>Howard Joel Wolowitz, M.Eng is a fictional character on the CBS television series The Big Bang Theory, portrayed by actor Simon Helberg. Among the main male characters in the show, Howard is distinguished for lacking a doctoral degree, for still living with his mother, and for believing himself to be a &quot;ladies&apos; man&quot;. Simon Helberg&apos;s character is named after a computer programmer known by the show&apos;s co-creator Bill Prady.</string>
+	<key>imageName</key>
+	<string>Howard_Wolowitz.jpg</string>
+</dict>
+</plist>
