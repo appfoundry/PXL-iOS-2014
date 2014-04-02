@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>id</key>
+	<string>pnny</string>
+	<key>name</key>
+	<string>Penny</string>
+	<key>lastName</key>
+	<string>???</string>
+	<key>profession</key>
+	<string>Waitres</string>
+	<key>realName</key>
+	<string>Kaley Cuoco</string>
+	<key>bio</key>
+	<string>Penny is a fictional character on the CBS television series The Big Bang Theory, portrayed by American actress Kaley Cuoco.
+Penny is the primary female character on the show, befriending her across-the-hall neighbors Leonard Hofstadter (Johnny Galecki) and Sheldon Cooper (Jim Parsons), two physicists who work at the nearby California Institute of Technology (CalTech). Penny&apos;s lack of advanced education but outgoing personality and common sense drastically contrast with the personalities of the primary male characters in the series, even though she is considered part of their group. She is the love interest of Leonard, whom she dates regularly during the third, fifth and sixth seasons.</string>
+	<key>imageName</key>
+	<string>Penny.jpg</string>
+</dict>
+</plist>

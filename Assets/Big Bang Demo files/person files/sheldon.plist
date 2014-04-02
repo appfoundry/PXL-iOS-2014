@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>id</key>
+	<string>SHELLY</string>
+	<key>name</key>
+	<string>Sheldon</string>
+	<key>lastName</key>
+	<string>Cooper</string>
+	<key>profession</key>
+	<string>Theoretical physicist</string>
+	<key>realName</key>
+	<string>Jim Parsons</string>
+	<key>bio</key>
+	<string>Sheldon Lee Cooper, M.A., Ph.D., Sc.D. is a fictional character on the CBS television series The Big Bang Theory, portrayed by actor Jim Parsons. For his portrayal, Parsons has won two Primetime Emmy Awards, a Golden Globe Award, a TCA Award, and a Critics&apos; Choice Television Award.
+Sheldon is a Caltech theoretical physicist who shares an apartment with his colleague and best friend, Leonard Hofstadter (Johnny Galecki). Sheldon exhibits a strict adherence to routine, a total lack of social skills, a tenuous understanding of irony, sarcasm, and humor, and a general lack of humility or empathy. He is vocal about his own superior intellect compared to all around him. These characteristics provide the majority of the humor involving him, which has caused him to be described as the show&apos;s breakout character. Despite speculation that Sheldon&apos;s personality traits may be consistent with Asperger syndrome, obsessive–compulsive personality disorder and asexuality; co-creator Bill Prady has repeatedly stated that Sheldon&apos;s character was not conceived nor developed with regard to any of these conditions.</string>
+	<key>imageName</key>
+	<string>Sheldon_Cooper.jpg</string>
+</dict>
+</plist>
