@@ -58,35 +58,35 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fWD-wA-OYe">
-                                <rect key="frame" x="20" y="0.0" width="130" height="21"/>
+                                <rect key="frame" x="20" y="5" width="130" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="130" id="3k3-X0-hz9"/>
+                                    <constraint firstAttribute="width" constant="130" id="Stk-07-WJc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profession" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsY-87-I7A">
-                                <rect key="frame" x="20" y="29" width="130" height="21"/>
+                                <rect key="frame" x="20" y="31" width="130" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Real name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jdV-tz-jDY">
-                                <rect key="frame" x="20" y="58" width="130" height="21"/>
+                                <rect key="frame" x="20" y="57" width="130" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bio" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kos-vV-pW1">
-                                <rect key="frame" x="20" y="87" width="130" height="21"/>
+                                <rect key="frame" x="20" y="83" width="130" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFa-Wd-4e3">
-                                <rect key="frame" x="158" y="0.0" width="142" height="21"/>
+                                <rect key="frame" x="158" y="5" width="142" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -107,54 +107,102 @@
                                 <rect key="frame" x="8" y="116" width="304" height="339"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="l5k-5I-VCY" firstAttribute="top" secondItem="3br-Qn-5mA" secondAttribute="bottom" id="15e-HG-bcp"/>
-                            <constraint firstItem="jdV-tz-jDY" firstAttribute="top" secondItem="gsY-87-I7A" secondAttribute="bottom" constant="8" id="1fN-Yg-1Xj"/>
-                            <constraint firstItem="3br-Qn-5mA" firstAttribute="top" secondItem="Kos-vV-pW1" secondAttribute="bottom" constant="8" id="2OB-R6-Z5B"/>
-                            <constraint firstItem="zsL-6a-Js0" firstAttribute="leading" secondItem="jdV-tz-jDY" secondAttribute="trailing" constant="8" id="4EY-H1-MUO"/>
-                            <constraint firstItem="jdV-tz-jDY" firstAttribute="baseline" secondItem="zsL-6a-Js0" secondAttribute="baseline" id="5X0-ZH-qTf"/>
-                            <constraint firstItem="Kos-vV-pW1" firstAttribute="top" secondItem="jdV-tz-jDY" secondAttribute="bottom" constant="8" id="HGR-qU-DJZ"/>
-                            <constraint firstItem="XFa-Wd-4e3" firstAttribute="leading" secondItem="fWD-wA-OYe" secondAttribute="trailing" constant="8" id="IMz-M0-mUz"/>
-                            <constraint firstItem="gsY-87-I7A" firstAttribute="width" secondItem="Kos-vV-pW1" secondAttribute="width" id="L24-AL-4dU"/>
-                            <constraint firstItem="gsY-87-I7A" firstAttribute="top" secondItem="fWD-wA-OYe" secondAttribute="bottom" constant="8" id="OEz-ap-PVT"/>
-                            <constraint firstItem="XFa-Wd-4e3" firstAttribute="trailing" secondItem="zsL-6a-Js0" secondAttribute="trailing" id="OPe-Ll-k1g"/>
-                            <constraint firstItem="fWD-wA-OYe" firstAttribute="leading" secondItem="GWp-1h-lcN" secondAttribute="leading" constant="20" id="Seg-D6-Uu2"/>
-                            <constraint firstItem="gsY-87-I7A" firstAttribute="width" secondItem="jdV-tz-jDY" secondAttribute="width" id="TI6-PH-4R0"/>
-                            <constraint firstItem="gsY-87-I7A" firstAttribute="baseline" secondItem="wYt-43-GOT" secondAttribute="baseline" id="UAy-VR-UGw"/>
-                            <constraint firstItem="gsY-87-I7A" firstAttribute="leading" secondItem="Kos-vV-pW1" secondAttribute="leading" id="UKb-dl-rH0"/>
-                            <constraint firstAttribute="trailing" secondItem="3br-Qn-5mA" secondAttribute="trailing" constant="8" id="Wh1-Rb-oRs"/>
-                            <constraint firstItem="gsY-87-I7A" firstAttribute="width" secondItem="fWD-wA-OYe" secondAttribute="width" id="ZVO-3g-HHN"/>
-                            <constraint firstItem="fWD-wA-OYe" firstAttribute="top" secondItem="guq-0j-sDc" secondAttribute="bottom" id="e5s-vx-Et8"/>
-                            <constraint firstItem="zsL-6a-Js0" firstAttribute="top" secondItem="wYt-43-GOT" secondAttribute="bottom" constant="8" id="jcz-pv-SLm"/>
-                            <constraint firstItem="3br-Qn-5mA" firstAttribute="leading" secondItem="GWp-1h-lcN" secondAttribute="leading" constant="8" id="mjZ-aY-tsG"/>
-                            <constraint firstItem="gsY-87-I7A" firstAttribute="leading" secondItem="fWD-wA-OYe" secondAttribute="leading" id="nES-fI-Xis"/>
-                            <constraint firstItem="XFa-Wd-4e3" firstAttribute="baseline" secondItem="fWD-wA-OYe" secondAttribute="baseline" id="qEM-0h-x1O"/>
-                            <constraint firstItem="XFa-Wd-4e3" firstAttribute="trailing" secondItem="wYt-43-GOT" secondAttribute="trailing" id="skj-YG-P9J"/>
-                            <constraint firstItem="wYt-43-GOT" firstAttribute="leading" secondItem="gsY-87-I7A" secondAttribute="trailing" constant="8" id="t4E-Z0-oUB"/>
-                            <constraint firstAttribute="trailing" secondItem="XFa-Wd-4e3" secondAttribute="trailing" constant="20" id="ucP-aj-t5a"/>
-                            <constraint firstItem="gsY-87-I7A" firstAttribute="leading" secondItem="jdV-tz-jDY" secondAttribute="leading" id="x6R-s1-Smv"/>
+                            <constraint firstItem="3br-Qn-5mA" firstAttribute="leading" secondItem="GWp-1h-lcN" secondAttribute="leading" constant="8" id="1S0-fc-B3x"/>
+                            <constraint firstItem="l5k-5I-VCY" firstAttribute="top" secondItem="3br-Qn-5mA" secondAttribute="bottom" id="3eo-rO-Tjt"/>
+                            <constraint firstItem="zsL-6a-Js0" firstAttribute="trailing" secondItem="wYt-43-GOT" secondAttribute="trailing" id="9Qc-2f-NLN"/>
+                            <constraint firstItem="3br-Qn-5mA" firstAttribute="top" secondItem="Kos-vV-pW1" secondAttribute="bottom" constant="12" id="CWL-QO-63d"/>
+                            <constraint firstItem="zsL-6a-Js0" firstAttribute="top" secondItem="wYt-43-GOT" secondAttribute="bottom" constant="8" id="Fy4-dc-ibg"/>
+                            <constraint firstAttribute="trailing" secondItem="XFa-Wd-4e3" secondAttribute="trailing" constant="20" id="KMo-hv-2lq"/>
+                            <constraint firstItem="fWD-wA-OYe" firstAttribute="trailing" secondItem="Kos-vV-pW1" secondAttribute="trailing" id="KhJ-JT-sLl"/>
+                            <constraint firstItem="gsY-87-I7A" firstAttribute="top" secondItem="fWD-wA-OYe" secondAttribute="bottom" constant="5" id="Kv4-Mu-Rty"/>
+                            <constraint firstItem="XFa-Wd-4e3" firstAttribute="top" secondItem="guq-0j-sDc" secondAttribute="bottom" constant="5" id="OMc-c4-qDP"/>
+                            <constraint firstItem="fWD-wA-OYe" firstAttribute="leading" secondItem="GWp-1h-lcN" secondAttribute="leading" constant="20" id="PXY-gN-U04"/>
+                            <constraint firstItem="fWD-wA-OYe" firstAttribute="leading" secondItem="gsY-87-I7A" secondAttribute="leading" id="WS7-bd-bwB"/>
+                            <constraint firstItem="fWD-wA-OYe" firstAttribute="top" secondItem="XFa-Wd-4e3" secondAttribute="top" id="aWQ-iK-yGQ"/>
+                            <constraint firstItem="zsL-6a-Js0" firstAttribute="leading" secondItem="wYt-43-GOT" secondAttribute="leading" id="cQA-jz-idM"/>
+                            <constraint firstItem="fWD-wA-OYe" firstAttribute="trailing" secondItem="gsY-87-I7A" secondAttribute="trailing" id="ebM-Js-tjf"/>
+                            <constraint firstItem="zsL-6a-Js0" firstAttribute="leading" secondItem="XFa-Wd-4e3" secondAttribute="leading" id="fSJ-I4-Pb6"/>
+                            <constraint firstItem="fWD-wA-OYe" firstAttribute="trailing" secondItem="jdV-tz-jDY" secondAttribute="trailing" id="jlI-gc-iV0"/>
+                            <constraint firstItem="jdV-tz-jDY" firstAttribute="top" secondItem="gsY-87-I7A" secondAttribute="bottom" constant="5" id="li1-iE-2Oj"/>
+                            <constraint firstItem="XFa-Wd-4e3" firstAttribute="leading" secondItem="fWD-wA-OYe" secondAttribute="trailing" constant="8" id="nNj-uf-UvV"/>
+                            <constraint firstItem="wYt-43-GOT" firstAttribute="top" secondItem="XFa-Wd-4e3" secondAttribute="bottom" constant="3" id="tJ8-Xb-ZyI"/>
+                            <constraint firstAttribute="trailing" secondItem="3br-Qn-5mA" secondAttribute="trailing" constant="8" id="thh-2V-mYH"/>
+                            <constraint firstItem="fWD-wA-OYe" firstAttribute="leading" secondItem="jdV-tz-jDY" secondAttribute="leading" id="uwl-lx-FUy"/>
+                            <constraint firstItem="zsL-6a-Js0" firstAttribute="trailing" secondItem="XFa-Wd-4e3" secondAttribute="trailing" id="wtJ-Ek-8h0"/>
+                            <constraint firstItem="fWD-wA-OYe" firstAttribute="top" secondItem="guq-0j-sDc" secondAttribute="bottom" constant="5" id="yr5-zb-4Th"/>
+                            <constraint firstItem="Kos-vV-pW1" firstAttribute="top" secondItem="jdV-tz-jDY" secondAttribute="bottom" constant="5" id="zHm-Nv-77z"/>
+                            <constraint firstItem="fWD-wA-OYe" firstAttribute="leading" secondItem="Kos-vV-pW1" secondAttribute="leading" id="zID-Py-Rei"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <tabBarItem key="tabBarItem" title="Detail" id="t0q-qm-udp"/>
                     <navigationItem key="navigationItem" id="pNM-0L-lLI"/>
+                    <connections>
+                        <outlet property="_bioTextView" destination="3br-Qn-5mA" id="uPN-p7-A18"/>
+                        <outlet property="_nameLabel" destination="XFa-Wd-4e3" id="BHl-a4-kmK"/>
+                        <outlet property="_professionLabel" destination="wYt-43-GOT" id="KnB-1a-guG"/>
+                        <outlet property="_realNameLabel" destination="zsL-6a-Js0" id="XvN-o1-I8C"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F1j-ch-r7n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2114" y="-262"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Person Website View Controller-->
+        <scene sceneID="Lmn-Vp-Wqc">
+            <objects>
+                <viewController id="gao-3g-i4J" customClass="PersonWebsiteViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YXe-eH-eRB"/>
+                        <viewControllerLayoutGuide type="bottom" id="tCD-Ac-JSh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="idR-Qj-tiW">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OOH-lU-5z2">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OOH-lU-5z2" firstAttribute="leading" secondItem="idR-Qj-tiW" secondAttribute="leading" id="KyC-PC-TgG"/>
+                            <constraint firstAttribute="trailing" secondItem="OOH-lU-5z2" secondAttribute="trailing" id="Ynd-pe-glF"/>
+                            <constraint firstItem="tCD-Ac-JSh" firstAttribute="top" secondItem="OOH-lU-5z2" secondAttribute="bottom" id="gBO-ik-zmp"/>
+                            <constraint firstItem="OOH-lU-5z2" firstAttribute="top" secondItem="YXe-eH-eRB" secondAttribute="bottom" id="gGp-nS-itZ"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" id="y6y-ex-bOG"/>
+                    <connections>
+                        <outlet property="_webView" destination="OOH-lU-5z2" id="zzV-hw-KeG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rW1-tX-IpW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1582" y="-764"/>
+        </scene>
+        <!--Person Tab Bar Controller-->
         <scene sceneID="ozf-X6-G6I">
             <objects>
-                <tabBarController definesPresentationContext="YES" id="Gbz-qw-PM4" sceneMemberID="viewController">
+                <tabBarController definesPresentationContext="YES" id="Gbz-qw-PM4" customClass="PersonTabBarController" sceneMemberID="viewController">
                     <extendedEdge key="edgesForExtendedLayout"/>
-                    <navigationItem key="navigationItem" id="e9M-Id-jiO"/>
+                    <navigationItem key="navigationItem" id="e9M-Id-jiO">
+                        <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="OJB-C2-jGC">
+                            <connections>
+                                <action selector="_openWebsite:" destination="Gbz-qw-PM4" id="WZq-Td-4IF"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="qTu-cn-jim">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
@@ -164,16 +212,17 @@
                     <connections>
                         <segue destination="YxA-2P-pwy" kind="relationship" relationship="viewControllers" id="QWd-ze-3fS"/>
                         <segue destination="Tdc-FV-xZ8" kind="relationship" relationship="viewControllers" id="OLt-En-t0q"/>
+                        <segue destination="gao-3g-i4J" kind="push" identifier="toWebView" id="pgu-lS-AtX"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6yL-ox-wXk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1582" y="66"/>
         </scene>
-        <!--View Controller - Image-->
+        <!--Person Image View Controller - Image-->
         <scene sceneID="fAG-Uv-jN0">
             <objects>
-                <viewController id="Tdc-FV-xZ8" sceneMemberID="viewController">
+                <viewController id="Tdc-FV-xZ8" customClass="PersonImageViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cef-Ea-BCU"/>
                         <viewControllerLayoutGuide type="bottom" id="rzI-FE-HCL"/>
@@ -181,9 +230,26 @@
                     <view key="view" contentMode="scaleToFill" id="iIO-Kl-LAx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FzC-lw-QbC">
+                                <rect key="frame" x="20" y="124" width="280" height="320"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="320" id="0I5-wu-Qdy"/>
+                                    <constraint firstAttribute="width" constant="280" id="pdc-fV-QJE"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="FzC-lw-QbC" secondAttribute="centerY" id="6zb-B1-eLi"/>
+                            <constraint firstAttribute="centerX" secondItem="FzC-lw-QbC" secondAttribute="centerX" id="EIc-vU-cLS"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Image" id="8ze-Mr-3So"/>
+                    <connections>
+                        <outlet property="_imageView" destination="FzC-lw-QbC" id="oOI-5w-xcn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YRO-4X-lQs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

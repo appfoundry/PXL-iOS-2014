@@ -12,7 +12,7 @@
 
 @interface DetailKeeper : NSObject
 
-@property(nonatomic, strong) Person* selectedPerson;
+@property(strong) Person* selectedPerson;
 
 + (instancetype) sharedDetailKeeper;
 

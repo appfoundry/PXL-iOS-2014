@@ -17,6 +17,7 @@
 @property(nonatomic, strong) NSString *bio;
 @property(nonatomic, strong) NSString *profession;
 @property(nonatomic, strong) NSString *websiteUrl;
+@property(nonatomic, strong) NSString *imageName;
 @property(nonatomic, readonly, strong) NSString *fullName;
 
 +(instancetype)personWithFirstName:(NSString *)firstName andLastName:(NSString *)lastName;

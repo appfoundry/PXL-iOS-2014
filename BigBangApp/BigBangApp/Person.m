@@ -41,6 +41,7 @@
             self.websiteUrl = personDict[@"website"];
             self.realName = personDict[@"realName"];
             self.identifier = personDict[@"id"];
+            self.imageName = personDict[@"imageName"];
         }
     } else {
         self = nil;

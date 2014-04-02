@@ -30,6 +30,11 @@
 		276BA0DC18D48E4F0087DD66 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276BA0DB18D48E4F0087DD66 /* Storyboard.storyboard */; };
 		276BA0E018D495930087DD66 /* MasterPersonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 276BA0DF18D495930087DD66 /* MasterPersonTableViewController.m */; };
 		276BA0E518D49FDF0087DD66 /* BundlePersonDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 276BA0E418D49FDF0087DD66 /* BundlePersonDataLoader.m */; };
+		27AF193618EC7CD300BC19E4 /* PersonImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF193518EC7CD300BC19E4 /* PersonImageViewController.m */; };
+		27AF193A18EC874E00BC19E4 /* NSArray+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF193918EC874E00BC19E4 /* NSArray+Functional.m */; };
+		27AF193D18EC8D6200BC19E4 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27AF193B18EC8A5200BC19E4 /* Media.xcassets */; };
+		27AF194018EC901300BC19E4 /* PersonTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF193F18EC901300BC19E4 /* PersonTabBarController.m */; };
+		27AF194318EC942600BC19E4 /* PersonWebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF194218EC942600BC19E4 /* PersonWebsiteViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +81,25 @@
 		276BA0E218D49EC70087DD66 /* PersonDataLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonDataLoader.h; sourceTree = "<group>"; };
 		276BA0E318D49FDF0087DD66 /* BundlePersonDataLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundlePersonDataLoader.h; sourceTree = "<group>"; };
 		276BA0E418D49FDF0087DD66 /* BundlePersonDataLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundlePersonDataLoader.m; sourceTree = "<group>"; };
+		27AF192018EC7B0300BC19E4 /* Howard_Wolowitz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Howard_Wolowitz.jpg; sourceTree = "<group>"; };
+		27AF192118EC7B0300BC19E4 /* Howard_Wolowitz@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Howard_Wolowitz@2x.jpg"; sourceTree = "<group>"; };
+		27AF192218EC7B0300BC19E4 /* Leonard_Hofstadter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Leonard_Hofstadter.jpg; sourceTree = "<group>"; };
+		27AF192318EC7B0300BC19E4 /* Leonard_Hofstadter@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Leonard_Hofstadter@2x.jpg"; sourceTree = "<group>"; };
+		27AF192418EC7B0300BC19E4 /* Penny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Penny.jpg; sourceTree = "<group>"; };
+		27AF192518EC7B0300BC19E4 /* Penny@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Penny@2x.jpg"; sourceTree = "<group>"; };
+		27AF192618EC7B0300BC19E4 /* Rajesh_Koothrappali.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rajesh_Koothrappali.jpg; sourceTree = "<group>"; };
+		27AF192718EC7B0300BC19E4 /* Rajesh_Koothrappali@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rajesh_Koothrappali@2x.jpg"; sourceTree = "<group>"; };
+		27AF192818EC7B0300BC19E4 /* Sheldon_Cooper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sheldon_Cooper.jpg; sourceTree = "<group>"; };
+		27AF192918EC7B0300BC19E4 /* Sheldon_Cooper@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sheldon_Cooper@2x.jpg"; sourceTree = "<group>"; };
+		27AF193418EC7CD300BC19E4 /* PersonImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonImageViewController.h; sourceTree = "<group>"; };
+		27AF193518EC7CD300BC19E4 /* PersonImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonImageViewController.m; sourceTree = "<group>"; };
+		27AF193818EC874E00BC19E4 /* NSArray+Functional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Functional.h"; sourceTree = "<group>"; };
+		27AF193918EC874E00BC19E4 /* NSArray+Functional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Functional.m"; sourceTree = "<group>"; };
+		27AF193B18EC8A5200BC19E4 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		27AF193E18EC901300BC19E4 /* PersonTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonTabBarController.h; sourceTree = "<group>"; };
+		27AF193F18EC901300BC19E4 /* PersonTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTabBarController.m; sourceTree = "<group>"; };
+		27AF194118EC942600BC19E4 /* PersonWebsiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonWebsiteViewController.h; sourceTree = "<group>"; };
+		27AF194218EC942600BC19E4 /* PersonWebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonWebsiteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +159,7 @@
 		276BA0A118D4591B0087DD66 /* BigBangApp */ = {
 			isa = PBXGroup;
 			children = (
+				27AF193718EC871A00BC19E4 /* Category */,
 				276BA0E118D49E870087DD66 /* Service */,
 				276BA0DD18D4954B0087DD66 /* Controller */,
 				276BA0DA18D48E290087DD66 /* View */,
@@ -150,6 +175,7 @@
 		276BA0A218D4591B0087DD66 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				27AF191F18EC7AD800BC19E4 /* Images_oldschool */,
 				276BA0CE18D4893A0087DD66 /* Resources */,
 				276BA0A318D4591B0087DD66 /* BigBangApp-Info.plist */,
 				276BA0A418D4591B0087DD66 /* InfoPlist.strings */,
@@ -196,6 +222,7 @@
 				276BA0D118D489E00087DD66 /* penny.plist */,
 				276BA0D218D489E00087DD66 /* rajesh.plist */,
 				276BA0D318D489E00087DD66 /* sheldon.plist */,
+				27AF193B18EC8A5200BC19E4 /* Media.xcassets */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -215,6 +242,12 @@
 				276BA0DF18D495930087DD66 /* MasterPersonTableViewController.m */,
 				271CF70D18E36A8A002DE484 /* PersonDetailViewController.h */,
 				271CF70E18E36A8A002DE484 /* PersonDetailViewController.m */,
+				27AF193418EC7CD300BC19E4 /* PersonImageViewController.h */,
+				27AF193518EC7CD300BC19E4 /* PersonImageViewController.m */,
+				27AF193E18EC901300BC19E4 /* PersonTabBarController.h */,
+				27AF193F18EC901300BC19E4 /* PersonTabBarController.m */,
+				27AF194118EC942600BC19E4 /* PersonWebsiteViewController.h */,
+				27AF194218EC942600BC19E4 /* PersonWebsiteViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -227,6 +260,32 @@
 				276BA0E418D49FDF0087DD66 /* BundlePersonDataLoader.m */,
 			);
 			name = Service;
+			sourceTree = "<group>";
+		};
+		27AF191F18EC7AD800BC19E4 /* Images_oldschool */ = {
+			isa = PBXGroup;
+			children = (
+				27AF192018EC7B0300BC19E4 /* Howard_Wolowitz.jpg */,
+				27AF192118EC7B0300BC19E4 /* Howard_Wolowitz@2x.jpg */,
+				27AF192218EC7B0300BC19E4 /* Leonard_Hofstadter.jpg */,
+				27AF192318EC7B0300BC19E4 /* Leonard_Hofstadter@2x.jpg */,
+				27AF192418EC7B0300BC19E4 /* Penny.jpg */,
+				27AF192518EC7B0300BC19E4 /* Penny@2x.jpg */,
+				27AF192618EC7B0300BC19E4 /* Rajesh_Koothrappali.jpg */,
+				27AF192718EC7B0300BC19E4 /* Rajesh_Koothrappali@2x.jpg */,
+				27AF192818EC7B0300BC19E4 /* Sheldon_Cooper.jpg */,
+				27AF192918EC7B0300BC19E4 /* Sheldon_Cooper@2x.jpg */,
+			);
+			name = Images_oldschool;
+			sourceTree = "<group>";
+		};
+		27AF193718EC871A00BC19E4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				27AF193818EC874E00BC19E4 /* NSArray+Functional.h */,
+				27AF193918EC874E00BC19E4 /* NSArray+Functional.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +370,7 @@
 				276BA0D918D48A3D0087DD66 /* sheldon.plist in Resources */,
 				276BA0DC18D48E4F0087DD66 /* Storyboard.storyboard in Resources */,
 				276BA0A618D4591B0087DD66 /* InfoPlist.strings in Resources */,
+				27AF193D18EC8D6200BC19E4 /* Media.xcassets in Resources */,
 				276BA0AE18D4591B0087DD66 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,8 +395,12 @@
 				271CF70F18E36A8A002DE484 /* PersonDetailViewController.m in Sources */,
 				276BA0E018D495930087DD66 /* MasterPersonTableViewController.m in Sources */,
 				276BA0A818D4591B0087DD66 /* main.m in Sources */,
+				27AF193A18EC874E00BC19E4 /* NSArray+Functional.m in Sources */,
 				271CF70C18E36714002DE484 /* DetailKeeper.m in Sources */,
+				27AF194318EC942600BC19E4 /* PersonWebsiteViewController.m in Sources */,
 				276BA0E518D49FDF0087DD66 /* BundlePersonDataLoader.m in Sources */,
+				27AF194018EC901300BC19E4 /* PersonTabBarController.m in Sources */,
+				27AF193618EC7CD300BC19E4 /* PersonImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

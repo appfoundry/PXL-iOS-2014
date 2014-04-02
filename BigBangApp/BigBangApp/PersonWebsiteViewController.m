@@ -1,22 +1,23 @@
 //
-//  PersonImageViewController.m
+//  PersonWebsiteViewController.m
 //  BigBangApp
 //
 //  Created by Michael Seghers on 02/04/14.
 //  Copyright (c) 2014 PXL. All rights reserved.
 //
 
-#import "PersonImageViewController.h"
+#import "PersonWebsiteViewController.h"
 #import "Person.h"
 #import "DetailKeeper.h"
 
-@interface PersonImageViewController () {
-    __weak IBOutlet UIImageView *_imageView;
+@interface PersonWebsiteViewController () {
+    
+    __weak IBOutlet UIWebView *_webView;
 }
 
 @end
 
-@implementation PersonImageViewController
+@implementation PersonWebsiteViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -31,8 +32,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    Person *selectedPerson = [DetailKeeper sharedDetailKeeper].selectedPerson;
-    _imageView.image = [UIImage imageNamed:selectedPerson.imageName];
+    Person *sp = [DetailKeeper sharedDetailKeeper].selectedPerson;
+    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:sp.websiteUrl]];
+    [_webView loadRequest:urlRequest];
 }
 
 - (void)didReceiveMemoryWarning

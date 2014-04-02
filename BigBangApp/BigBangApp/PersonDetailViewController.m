@@ -10,7 +10,13 @@
 #import "Person.h"
 #import "DetailKeeper.h"
 
-@interface PersonDetailViewController ()
+@interface PersonDetailViewController () {
+    
+    __weak IBOutlet UILabel *_nameLabel;
+    __weak IBOutlet UILabel *_professionLabel;
+    __weak IBOutlet UILabel *_realNameLabel;
+    __weak IBOutlet UITextView *_bioTextView;
+}
 
 @end
 
@@ -28,15 +34,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    Person *selectedPerson = [DetailKeeper sharedDetailKeeper].selectedPerson;
-    self.tabBarController.title = selectedPerson.fullName;
+    [self _loadData];
 }
 
-- (void)didReceiveMemoryWarning
+- (void)_loadData
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    Person *selectedPerson = [DetailKeeper sharedDetailKeeper].selectedPerson;
+    self.tabBarController.title = selectedPerson.fullName;
+    _nameLabel.text = selectedPerson.fullName;
+    _professionLabel.text = selectedPerson.profession;
+    _realNameLabel.text = selectedPerson.realName;
+    _bioTextView.text = selectedPerson.bio;
 }
 
 @end
