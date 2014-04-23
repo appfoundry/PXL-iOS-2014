@@ -21,6 +21,10 @@
     return [[Person alloc] initWithContentsOfFile:path];
 }
 
++ (instancetype)personWithJSONDictionary:(NSDictionary *)jsonDictionary {
+    return [[Person alloc] initWithJSONDictionary:jsonDictionary];
+}
+
 - (instancetype)initWithFirstName:(NSString *)firstName andLastName:(NSString *)lastName
 {
     self = [super init];
@@ -42,6 +46,23 @@
             self.realName = personDict[@"realName"];
             self.identifier = personDict[@"id"];
             self.imageName = personDict[@"imageName"];
+        }
+    } else {
+        self = nil;
+    }
+    return self;
+}
+
+- (instancetype)initWithJSONDictionary:(NSDictionary *) jsonDictionary {
+    if (jsonDictionary) {
+        self = [self initWithFirstName:jsonDictionary[@"name"] andLastName:jsonDictionary[@"lastName"]];
+        if (self) {
+            self.bio = jsonDictionary[@"bio"];
+            self.profession = jsonDictionary[@"profession"];
+            self.websiteUrl = jsonDictionary[@"url"];
+            self.realName = jsonDictionary[@"realName"];
+            self.identifier = jsonDictionary[@"id"];
+            self.imageName = jsonDictionary[@"imageUri"];
         }
     } else {
         self = nil;

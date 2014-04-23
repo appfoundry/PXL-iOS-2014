@@ -8,10 +8,11 @@
 
 #import "MasterPersonTableViewController.h"
 #import "Person.h"
-#import "BundlePersonDataLoader.h"
+#import "RemotePersonDataLoader.h"
 #import "DetailKeeper.h"
+#import "PersonListConnectionDelegate.h"
 
-@interface MasterPersonTableViewController ()  {
+@interface MasterPersonTableViewController () {
     NSArray *_persons;
     id<PersonDataLoader> _personDataLoader;
 }
@@ -40,11 +41,16 @@
 
 - (void) _loadData {
     [self.refreshControl beginRefreshing];
-    _personDataLoader = [[BundlePersonDataLoader alloc] init];
+    _personDataLoader = [[RemotePersonDataLoader alloc] init];
     [_personDataLoader fetchPersonData:^(NSArray *persons, NSError *error) {
-        _persons = persons;
-        [self.tableView reloadData];
-        [self.refreshControl endRefreshing];
+        if (persons) {
+            _persons = persons;
+            [self.tableView reloadData];
+            [self.refreshControl endRefreshing];
+        } else {
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Something's wrong" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+            [alert show];
+        }
     }];
 }
 

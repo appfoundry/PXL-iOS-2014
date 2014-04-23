@@ -22,6 +22,7 @@
 
 +(instancetype)personWithFirstName:(NSString *)firstName andLastName:(NSString *)lastName;
 +(instancetype)personWithContentsOfFile:(NSString *) path;
++(instancetype)personWithJSONDictionary:(NSDictionary *) jsonDictionary;
 
 - (instancetype)initWithFirstName:(NSString *)firstName andLastName:(NSString *)lastName;
 - (instancetype)initWithContentsOfFile:(NSString *) path;

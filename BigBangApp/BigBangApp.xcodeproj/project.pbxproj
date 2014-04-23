@@ -35,6 +35,8 @@
 		27AF193D18EC8D6200BC19E4 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27AF193B18EC8A5200BC19E4 /* Media.xcassets */; };
 		27AF194018EC901300BC19E4 /* PersonTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF193F18EC901300BC19E4 /* PersonTabBarController.m */; };
 		27AF194318EC942600BC19E4 /* PersonWebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF194218EC942600BC19E4 /* PersonWebsiteViewController.m */; };
+		27B703701908261D00191FB5 /* PersonListConnectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B7036F1908261D00191FB5 /* PersonListConnectionDelegate.m */; };
+		27B703731908395C00191FB5 /* RemotePersonDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B703721908395C00191FB5 /* RemotePersonDataLoader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +102,10 @@
 		27AF193F18EC901300BC19E4 /* PersonTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTabBarController.m; sourceTree = "<group>"; };
 		27AF194118EC942600BC19E4 /* PersonWebsiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonWebsiteViewController.h; sourceTree = "<group>"; };
 		27AF194218EC942600BC19E4 /* PersonWebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonWebsiteViewController.m; sourceTree = "<group>"; };
+		27B7036E1908261D00191FB5 /* PersonListConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonListConnectionDelegate.h; sourceTree = "<group>"; };
+		27B7036F1908261D00191FB5 /* PersonListConnectionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonListConnectionDelegate.m; sourceTree = "<group>"; };
+		27B703711908395C00191FB5 /* RemotePersonDataLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemotePersonDataLoader.h; sourceTree = "<group>"; };
+		27B703721908395C00191FB5 /* RemotePersonDataLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemotePersonDataLoader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,6 +264,10 @@
 				276BA0E218D49EC70087DD66 /* PersonDataLoader.h */,
 				276BA0E318D49FDF0087DD66 /* BundlePersonDataLoader.h */,
 				276BA0E418D49FDF0087DD66 /* BundlePersonDataLoader.m */,
+				27B7036E1908261D00191FB5 /* PersonListConnectionDelegate.h */,
+				27B7036F1908261D00191FB5 /* PersonListConnectionDelegate.m */,
+				27B703711908395C00191FB5 /* RemotePersonDataLoader.h */,
+				27B703721908395C00191FB5 /* RemotePersonDataLoader.m */,
 			);
 			name = Service;
 			sourceTree = "<group>";
@@ -393,10 +403,12 @@
 				276BA0CD18D466D10087DD66 /* Person.m in Sources */,
 				276BA0AC18D4591B0087DD66 /* AppDelegate.m in Sources */,
 				271CF70F18E36A8A002DE484 /* PersonDetailViewController.m in Sources */,
+				27B703731908395C00191FB5 /* RemotePersonDataLoader.m in Sources */,
 				276BA0E018D495930087DD66 /* MasterPersonTableViewController.m in Sources */,
 				276BA0A818D4591B0087DD66 /* main.m in Sources */,
 				27AF193A18EC874E00BC19E4 /* NSArray+Functional.m in Sources */,
 				271CF70C18E36714002DE484 /* DetailKeeper.m in Sources */,
+				27B703701908261D00191FB5 /* PersonListConnectionDelegate.m in Sources */,
 				27AF194318EC942600BC19E4 /* PersonWebsiteViewController.m in Sources */,
 				276BA0E518D49FDF0087DD66 /* BundlePersonDataLoader.m in Sources */,
 				27AF194018EC901300BC19E4 /* PersonTabBarController.m in Sources */,
