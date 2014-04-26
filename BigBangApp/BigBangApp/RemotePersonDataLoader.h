@@ -11,4 +11,6 @@
 
 @interface RemotePersonDataLoader : NSObject<PersonDataLoader>
 
++(instancetype)sharedRemotePersonDataLoader;
+
 @end

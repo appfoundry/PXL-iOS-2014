@@ -59,7 +59,7 @@
         if (self) {
             self.bio = jsonDictionary[@"bio"];
             self.profession = jsonDictionary[@"profession"];
-            self.websiteUrl = jsonDictionary[@"url"];
+            self.websiteUrl = jsonDictionary[@"url"] == [NSNull null] ? nil : jsonDictionary[@"url"];
             self.realName = jsonDictionary[@"realName"];
             self.identifier = jsonDictionary[@"id"];
             self.imageName = jsonDictionary[@"imageUri"];

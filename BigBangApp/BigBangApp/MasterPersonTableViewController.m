@@ -8,7 +8,7 @@
 
 #import "MasterPersonTableViewController.h"
 #import "Person.h"
-#import "RemotePersonDataLoader.h"
+#import "LocalOrRemotePersonDataLoader.h"
 #import "DetailKeeper.h"
 #import "PersonListConnectionDelegate.h"
 
@@ -41,16 +41,16 @@
 
 - (void) _loadData {
     [self.refreshControl beginRefreshing];
-    _personDataLoader = [[RemotePersonDataLoader alloc] init];
+    _personDataLoader = [LocalOrRemotePersonDataLoader sharedLocalOrRemotePersonDataLoader];
     [_personDataLoader fetchPersonData:^(NSArray *persons, NSError *error) {
         if (persons) {
             _persons = persons;
             [self.tableView reloadData];
-            [self.refreshControl endRefreshing];
-        } else {
+        } else if (error) {
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Something's wrong" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
             [alert show];
         }
+        [self.refreshControl endRefreshing];
     }];
 }
 

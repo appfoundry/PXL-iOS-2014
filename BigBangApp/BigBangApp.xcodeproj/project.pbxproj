@@ -30,6 +30,15 @@
 		276BA0DC18D48E4F0087DD66 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276BA0DB18D48E4F0087DD66 /* Storyboard.storyboard */; };
 		276BA0E018D495930087DD66 /* MasterPersonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 276BA0DF18D495930087DD66 /* MasterPersonTableViewController.m */; };
 		276BA0E518D49FDF0087DD66 /* BundlePersonDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 276BA0E418D49FDF0087DD66 /* BundlePersonDataLoader.m */; };
+		2792CFE1190B98CE00FE74E1 /* InMemoryEtagRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 2792CFE0190B98CE00FE74E1 /* InMemoryEtagRegistry.m */; };
+		2792CFE4190BB09900FE74E1 /* SQLiteEtagRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 2792CFE3190BB09900FE74E1 /* SQLiteEtagRegistry.m */; };
+		2792CFE6190BB1BA00FE74E1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2792CFE5190BB1BA00FE74E1 /* libsqlite3.dylib */; };
+		2792CFE9190BD14300FE74E1 /* BigBangModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2792CFE7190BD14300FE74E1 /* BigBangModel.xcdatamodeld */; };
+		2792CFF0190BD39000FE74E1 /* CoreDataLocalPersonService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2792CFEF190BD39000FE74E1 /* CoreDataLocalPersonService.m */; };
+		2792CFF2190BD41E00FE74E1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2792CFF1190BD41E00FE74E1 /* CoreData.framework */; };
+		2792CFF5190BD8AB00FE74E1 /* LocalOrRemotePersonDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2792CFF4190BD8AB00FE74E1 /* LocalOrRemotePersonDataLoader.m */; };
+		2792CFFE190BE2AD00FE74E1 /* PersonCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2792CFFD190BE2AD00FE74E1 /* PersonCD.m */; };
+		2792D001190BE75A00FE74E1 /* CDMasterPersonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2792D000190BE75A00FE74E1 /* CDMasterPersonTableViewController.m */; };
 		27AF193618EC7CD300BC19E4 /* PersonImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF193518EC7CD300BC19E4 /* PersonImageViewController.m */; };
 		27AF193A18EC874E00BC19E4 /* NSArray+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF193918EC874E00BC19E4 /* NSArray+Functional.m */; };
 		27AF193D18EC8D6200BC19E4 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27AF193B18EC8A5200BC19E4 /* Media.xcassets */; };
@@ -83,6 +92,23 @@
 		276BA0E218D49EC70087DD66 /* PersonDataLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonDataLoader.h; sourceTree = "<group>"; };
 		276BA0E318D49FDF0087DD66 /* BundlePersonDataLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundlePersonDataLoader.h; sourceTree = "<group>"; };
 		276BA0E418D49FDF0087DD66 /* BundlePersonDataLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundlePersonDataLoader.m; sourceTree = "<group>"; };
+		2792CFDE190B97EC00FE74E1 /* EtagRegistry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EtagRegistry.h; sourceTree = "<group>"; };
+		2792CFDF190B98CE00FE74E1 /* InMemoryEtagRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InMemoryEtagRegistry.h; sourceTree = "<group>"; };
+		2792CFE0190B98CE00FE74E1 /* InMemoryEtagRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InMemoryEtagRegistry.m; sourceTree = "<group>"; };
+		2792CFE2190BB09900FE74E1 /* SQLiteEtagRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteEtagRegistry.h; sourceTree = "<group>"; };
+		2792CFE3190BB09900FE74E1 /* SQLiteEtagRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteEtagRegistry.m; sourceTree = "<group>"; };
+		2792CFE5190BB1BA00FE74E1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		2792CFE8190BD14300FE74E1 /* BigBangModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BigBangModel.xcdatamodel; sourceTree = "<group>"; };
+		2792CFED190BD37600FE74E1 /* LocalPersonService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalPersonService.h; sourceTree = "<group>"; };
+		2792CFEE190BD39000FE74E1 /* CoreDataLocalPersonService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataLocalPersonService.h; sourceTree = "<group>"; };
+		2792CFEF190BD39000FE74E1 /* CoreDataLocalPersonService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataLocalPersonService.m; sourceTree = "<group>"; };
+		2792CFF1190BD41E00FE74E1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2792CFF3190BD8AB00FE74E1 /* LocalOrRemotePersonDataLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalOrRemotePersonDataLoader.h; sourceTree = "<group>"; };
+		2792CFF4190BD8AB00FE74E1 /* LocalOrRemotePersonDataLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalOrRemotePersonDataLoader.m; sourceTree = "<group>"; };
+		2792CFFC190BE2AD00FE74E1 /* PersonCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonCD.h; sourceTree = "<group>"; };
+		2792CFFD190BE2AD00FE74E1 /* PersonCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonCD.m; sourceTree = "<group>"; };
+		2792CFFF190BE75A00FE74E1 /* CDMasterPersonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDMasterPersonTableViewController.h; sourceTree = "<group>"; };
+		2792D000190BE75A00FE74E1 /* CDMasterPersonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDMasterPersonTableViewController.m; sourceTree = "<group>"; };
 		27AF192018EC7B0300BC19E4 /* Howard_Wolowitz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Howard_Wolowitz.jpg; sourceTree = "<group>"; };
 		27AF192118EC7B0300BC19E4 /* Howard_Wolowitz@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Howard_Wolowitz@2x.jpg"; sourceTree = "<group>"; };
 		27AF192218EC7B0300BC19E4 /* Leonard_Hofstadter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Leonard_Hofstadter.jpg; sourceTree = "<group>"; };
@@ -113,6 +139,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2792CFF2190BD41E00FE74E1 /* CoreData.framework in Frameworks */,
+				2792CFE6190BB1BA00FE74E1 /* libsqlite3.dylib in Frameworks */,
 				276BA09E18D4591B0087DD66 /* CoreGraphics.framework in Frameworks */,
 				276BA0A018D4591B0087DD66 /* UIKit.framework in Frameworks */,
 				276BA09C18D4591B0087DD66 /* Foundation.framework in Frameworks */,
@@ -154,6 +182,8 @@
 		276BA09A18D4591B0087DD66 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2792CFF1190BD41E00FE74E1 /* CoreData.framework */,
+				2792CFE5190BB1BA00FE74E1 /* libsqlite3.dylib */,
 				276BA09B18D4591B0087DD66 /* Foundation.framework */,
 				276BA09D18D4591B0087DD66 /* CoreGraphics.framework */,
 				276BA09F18D4591B0087DD66 /* UIKit.framework */,
@@ -165,6 +195,7 @@
 		276BA0A118D4591B0087DD66 /* BigBangApp */ = {
 			isa = PBXGroup;
 			children = (
+				2792CFDD190B97D100FE74E1 /* Caching */,
 				27AF193718EC871A00BC19E4 /* Category */,
 				276BA0E118D49E870087DD66 /* Service */,
 				276BA0DD18D4954B0087DD66 /* Controller */,
@@ -216,6 +247,9 @@
 				276BA0CC18D466D10087DD66 /* Person.m */,
 				271CF70A18E36714002DE484 /* DetailKeeper.h */,
 				271CF70B18E36714002DE484 /* DetailKeeper.m */,
+				2792CFE7190BD14300FE74E1 /* BigBangModel.xcdatamodeld */,
+				2792CFFC190BE2AD00FE74E1 /* PersonCD.h */,
+				2792CFFD190BE2AD00FE74E1 /* PersonCD.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -254,6 +288,8 @@
 				27AF193F18EC901300BC19E4 /* PersonTabBarController.m */,
 				27AF194118EC942600BC19E4 /* PersonWebsiteViewController.h */,
 				27AF194218EC942600BC19E4 /* PersonWebsiteViewController.m */,
+				2792CFFF190BE75A00FE74E1 /* CDMasterPersonTableViewController.h */,
+				2792D000190BE75A00FE74E1 /* CDMasterPersonTableViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -268,8 +304,25 @@
 				27B7036F1908261D00191FB5 /* PersonListConnectionDelegate.m */,
 				27B703711908395C00191FB5 /* RemotePersonDataLoader.h */,
 				27B703721908395C00191FB5 /* RemotePersonDataLoader.m */,
+				2792CFED190BD37600FE74E1 /* LocalPersonService.h */,
+				2792CFEE190BD39000FE74E1 /* CoreDataLocalPersonService.h */,
+				2792CFEF190BD39000FE74E1 /* CoreDataLocalPersonService.m */,
+				2792CFF3190BD8AB00FE74E1 /* LocalOrRemotePersonDataLoader.h */,
+				2792CFF4190BD8AB00FE74E1 /* LocalOrRemotePersonDataLoader.m */,
 			);
 			name = Service;
+			sourceTree = "<group>";
+		};
+		2792CFDD190B97D100FE74E1 /* Caching */ = {
+			isa = PBXGroup;
+			children = (
+				2792CFDE190B97EC00FE74E1 /* EtagRegistry.h */,
+				2792CFDF190B98CE00FE74E1 /* InMemoryEtagRegistry.h */,
+				2792CFE0190B98CE00FE74E1 /* InMemoryEtagRegistry.m */,
+				2792CFE2190BB09900FE74E1 /* SQLiteEtagRegistry.h */,
+				2792CFE3190BB09900FE74E1 /* SQLiteEtagRegistry.m */,
+			);
+			name = Caching;
 			sourceTree = "<group>";
 		};
 		27AF191F18EC7AD800BC19E4 /* Images_oldschool */ = {
@@ -406,13 +459,20 @@
 				27B703731908395C00191FB5 /* RemotePersonDataLoader.m in Sources */,
 				276BA0E018D495930087DD66 /* MasterPersonTableViewController.m in Sources */,
 				276BA0A818D4591B0087DD66 /* main.m in Sources */,
+				2792CFFE190BE2AD00FE74E1 /* PersonCD.m in Sources */,
 				27AF193A18EC874E00BC19E4 /* NSArray+Functional.m in Sources */,
 				271CF70C18E36714002DE484 /* DetailKeeper.m in Sources */,
+				2792CFF5190BD8AB00FE74E1 /* LocalOrRemotePersonDataLoader.m in Sources */,
 				27B703701908261D00191FB5 /* PersonListConnectionDelegate.m in Sources */,
+				2792CFE1190B98CE00FE74E1 /* InMemoryEtagRegistry.m in Sources */,
 				27AF194318EC942600BC19E4 /* PersonWebsiteViewController.m in Sources */,
+				2792CFE4190BB09900FE74E1 /* SQLiteEtagRegistry.m in Sources */,
+				2792CFE9190BD14300FE74E1 /* BigBangModel.xcdatamodeld in Sources */,
 				276BA0E518D49FDF0087DD66 /* BundlePersonDataLoader.m in Sources */,
 				27AF194018EC901300BC19E4 /* PersonTabBarController.m in Sources */,
 				27AF193618EC7CD300BC19E4 /* PersonImageViewController.m in Sources */,
+				2792CFF0190BD39000FE74E1 /* CoreDataLocalPersonService.m in Sources */,
+				2792D001190BE75A00FE74E1 /* CDMasterPersonTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,6 +681,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2792CFE7190BD14300FE74E1 /* BigBangModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2792CFE8190BD14300FE74E1 /* BigBangModel.xcdatamodel */,
+			);
+			currentVersion = 2792CFE8190BD14300FE74E1 /* BigBangModel.xcdatamodel */;
+			path = BigBangModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 276BA09018D4591B0087DD66 /* Project object */;
 }

@@ -30,12 +30,24 @@
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
-    if ([response isKindOfClass:NSHTTPURLResponse.class] && ((NSHTTPURLResponse *) response).statusCode == 200) {
-        _responseBody = [[NSMutableData alloc] init];
+    if ([response isKindOfClass:NSHTTPURLResponse.class]) {
+        NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *) response;
+        if (httpResponse.statusCode == 200) {
+            _responseBody = [[NSMutableData alloc] init];
+        } else if (httpResponse.statusCode == 304) {
+            _completion(nil, nil);
+            [connection cancel];
+        } else {
+            [self _sendErrorToCompletionWithConnection:connection];
+        }
     } else {
-        _completion(nil, [NSError errorWithDomain:@"x" code:-1000 userInfo:nil]);
-        [connection cancel];
+        [self _sendErrorToCompletionWithConnection:connection];
     }
+}
+
+- (void) _sendErrorToCompletionWithConnection:(NSURLConnection *) connection {
+    _completion(nil, [NSError errorWithDomain:@"x" code:-1000 userInfo:nil]);
+    [connection cancel];
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
